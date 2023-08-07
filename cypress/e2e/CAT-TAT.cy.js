@@ -119,7 +119,7 @@ describe('Central de Atendimento ao Cliente TAT', function() {
           .should('have.value', 'mentoria')
     })
 
-    it('seleciona um produto (Blog) por seu valor (blog)', function(){ //AULA 3 - exercicio extra 2
+    it('seleciona um produto (Blog) por seu valor (value)', function(){ //AULA 3 - exercicio extra 2
         cy.get('#product')
           .select(1)
           .should('have.value', 'blog')
